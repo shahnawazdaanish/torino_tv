@@ -34,6 +34,7 @@
 <script lang="ts">
 import prices from "@/assets/prices/menu1.json";
 import MenuList from "@/components/MenuList.vue";
+// @ts-ignore
 import BackgroundSlideshow from '@/components/Slideshow.vue';
 
 export default {

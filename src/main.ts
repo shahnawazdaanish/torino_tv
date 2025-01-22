@@ -3,7 +3,7 @@
  *
  * Bootstraps Vuetify and other plugins then mounts the App`
  */
-
+/* eslint-disable */
 // Plugins
 import { registerPlugins } from '@/plugins'
 

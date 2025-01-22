@@ -58,17 +58,16 @@
 </template>
 
 <script setup lang="ts">
-import {defineProps, PropType} from "vue";
+import {defineProps} from "vue";
+import type { PropType } from 'vue';
 
 defineProps({
   menu: {
-    type: Array,
-    default: () => [],
-    required: true,
+    type: Object,
   }
 });
 
-let format_price = (price) => {
+let format_price = (price: any) => {
   return Number(price).toLocaleString("es-ES", {minimumFractionDigits: 2});
 }
 </script>

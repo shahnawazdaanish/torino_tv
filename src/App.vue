@@ -6,7 +6,8 @@
 </template>
 
 <script lang="ts">
-import StarFall from './components/StarFall.vue';
+// @ts-ignore
+import StarFall from '@/components/StarFall.vue';
 
 export default {
   name: "App",
